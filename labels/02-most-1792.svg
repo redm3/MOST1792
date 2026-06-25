@@ -1,0 +1,86 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- MOST 1792 — heritage / heraldic front label. -->
+  <defs>
+    <linearGradient id="mPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7F0E1"/>
+      <stop offset="1" stop-color="#EFE4CC"/>
+    </linearGradient>
+    <linearGradient id="mGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9A24B"/>
+      <stop offset="0.5" stop-color="#F0D78A"/>
+      <stop offset="1" stop-color="#A9822F"/>
+    </linearGradient>
+    <radialGradient id="mSeal" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#7A2222"/>
+      <stop offset="1" stop-color="#4A1212"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="800" rx="10" fill="url(#mPaper)"/>
+
+  <!-- ornate double frame -->
+  <rect x="22" y="22" width="556" height="756" rx="6" fill="none" stroke="#5A1A1A" stroke-width="3"/>
+  <rect x="34" y="34" width="532" height="732" rx="4" fill="none" stroke="url(#mGold)" stroke-width="2"/>
+  <!-- corner flourishes -->
+  <g stroke="#5A1A1A" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M48 80 Q48 48 80 48"/><path d="M552 80 Q552 48 520 48"/>
+    <path d="M48 720 Q48 752 80 752"/><path d="M552 720 Q552 752 520 752"/>
+  </g>
+
+  <!-- EST banner -->
+  <text x="300" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="18"
+        letter-spacing="6" fill="#5A1A1A">— ESTABLISHED 1792 —</text>
+
+  <!-- engraved stone bridge over river -->
+  <g stroke="#5A1A1A" stroke-width="2.4" fill="none">
+    <!-- bridge deck -->
+    <path d="M120 250 L480 250"/>
+    <!-- three arches -->
+    <path d="M150 250 A60 60 0 0 1 270 250"/>
+    <path d="M270 250 A60 60 0 0 1 390 250"/>
+    <path d="M120 250 A30 30 0 0 1 180 250" opacity="0.0"/>
+    <path d="M390 250 A45 45 0 0 1 480 250"/>
+    <!-- piers -->
+    <path d="M150 250 L150 300"/><path d="M270 250 L270 300"/>
+    <path d="M390 250 L390 300"/><path d="M480 250 L480 295"/><path d="M120 250 L120 300"/>
+    <!-- parapet -->
+    <path d="M120 238 L480 238"/>
+    <!-- river -->
+    <path d="M90 300 C 200 290, 250 312, 360 300 C 430 292, 470 306, 510 300"
+          stroke-opacity="0.5"/>
+    <path d="M110 314 C 220 306, 270 326, 380 314 C 440 307, 470 320, 500 314"
+          stroke-opacity="0.35"/>
+  </g>
+
+  <!-- keystone crest -->
+  <g>
+    <path d="M300 215 l16 14 v22 l-16 14 -16-14 v-22 z" fill="url(#mGold)" stroke="#5A1A1A" stroke-width="1.5"/>
+    <text x="300" y="252" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#5A1A1A">M</text>
+  </g>
+
+  <!-- wordmark -->
+  <text x="300" y="430" text-anchor="middle" font-family="'Trajan Pro','Bodoni MT',Georgia,serif"
+        font-size="92" letter-spacing="4" fill="#5A1A1A">MOST</text>
+  <text x="300" y="510" text-anchor="middle" font-family="'Didot','Bodoni MT',Georgia,serif"
+        font-size="62" letter-spacing="14" fill="url(#mGold)" stroke="#7a5a17" stroke-width="0.4">1792</text>
+
+  <text x="300" y="560" text-anchor="middle" font-family="Georgia,serif" font-style="italic"
+        font-size="24" fill="#5A1A1A">Šljivovica · Plum Brandy</text>
+
+  <!-- wax seal motif -->
+  <g transform="translate(300,640)">
+    <circle r="46" fill="url(#mSeal)"/>
+    <circle r="38" fill="none" stroke="#F0D78A" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="0" y="-6" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+          letter-spacing="2" fill="#F0D78A">ESTATE</text>
+    <text x="0" y="14" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+          letter-spacing="2" fill="#F0D78A">BOTTLED</text>
+  </g>
+
+  <text x="300" y="724" text-anchor="middle" font-family="Georgia,serif" font-size="15"
+        letter-spacing="2" fill="#5A1A1A">LIČKO PETROVO SELO · LIKA · HRVATSKA</text>
+
+  <!-- MANDATORY-TEXT ZONE -->
+  <text x="300" y="752" text-anchor="middle" font-family="Georgia,serif" font-size="14"
+        letter-spacing="2" fill="#5A1A1A">42% VOL · 700 ml · LOT 0000</text>
+</svg>

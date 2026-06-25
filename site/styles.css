@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:ital@0;1&display=swap');
+
+:root{
+  --cream:#F6F1E7;
+  --cream-2:#FBF8F1;
+  --navy:#16273D;
+  --navy-2:#1B2D46;
+  --gold:#B68E3F;
+  --gold-l:#C9A24B;
+  --ink:#2b2b2b;
+  --muted:#5a5f68;
+  --display:"Cormorant Garamond",Georgia,serif;
+  --body:"EB Garamond",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--cream);line-height:1.65}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.dash{display:inline-block;width:46px;height:1px;background:currentColor;vertical-align:middle;opacity:.7}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:20px 46px;background:var(--cream-2);border-bottom:1px solid rgba(182,142,63,.3)}
+.nav .brand{font-family:var(--display);font-size:30px;letter-spacing:8px;color:var(--gold);font-weight:600}
+.nav ul{display:flex;gap:38px;list-style:none}
+.nav ul a{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--navy)}
+.nav ul a:hover{color:var(--gold)}
+.nav .icons{display:flex;gap:18px;color:var(--navy)}
+.nav .icons svg{width:20px;height:20px}
+
+/* hero */
+.hero{text-align:center;padding:40px 24px 0;position:relative;overflow:hidden}
+.hero .crown-top{width:74px;margin:0 auto 6px}
+.hero h1{font-family:var(--display);font-size:clamp(64px,13vw,140px);letter-spacing:16px;color:var(--gold);font-weight:600;line-height:.92;text-indent:16px}
+.hero .year{font-family:var(--display);font-size:clamp(30px,5vw,52px);letter-spacing:18px;color:var(--gold);margin:0 0 8px;text-indent:18px}
+.hero .year .dash{margin:0 18px;width:54px;opacity:.8}
+.hero .sub{font-size:clamp(20px,3vw,28px);letter-spacing:10px;color:var(--navy);margin:2px 0 4px}
+.hero .origin{font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--navy);opacity:.85}
+.hero .estate{font-family:var(--body);font-style:italic;font-size:16px;color:var(--gold);margin-top:6px;letter-spacing:1px}
+.hero .scene{position:relative;margin-top:10px}
+.hero .scene img.bridge{width:100%;max-width:1180px;margin:0 auto;opacity:.95}
+.hero .crest{width:120px;margin:-40px auto 0}
+.hero .values{font-family:var(--display);font-size:clamp(20px,3vw,30px);letter-spacing:8px;color:var(--navy);margin:14px 0 50px}
+
+/* feature band */
+.features{background:var(--navy);color:var(--cream);padding:70px 24px}
+.features .grid{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.feature{text-align:center;padding:0 40px;position:relative}
+.feature + .feature{border-left:1px solid rgba(182,142,63,.3)}
+.feature .ico{height:46px;margin-bottom:18px;display:flex;justify-content:center}
+.feature .ico svg{height:46px;width:46px;stroke:var(--gold)}
+.feature h3{font-family:var(--display);font-size:24px;letter-spacing:3px;color:var(--cream);margin-bottom:14px}
+.feature p{font-size:15px;color:#c9cedb;max-width:240px;margin:0 auto 18px}
+.feature .more{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);border-bottom:1px solid var(--gold);padding-bottom:3px}
+
+/* story strip */
+.story{max-width:760px;margin:0 auto;padding:84px 24px;text-align:center}
+.story .eyebrow{font-size:12px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.story h2{font-family:var(--display);font-size:clamp(30px,5vw,48px);color:var(--navy);margin-bottom:22px;line-height:1.1}
+.story p{font-size:18px;color:#3c4452}
+.story p + p{margin-top:16px}
+
+/* footer */
+footer{background:var(--cream-2);border-top:1px solid rgba(182,142,63,.3);text-align:center;padding:40px 24px}
+footer .tag{font-family:var(--display);font-size:clamp(18px,3vw,26px);letter-spacing:5px;color:var(--navy)}
+footer .tag svg{height:22px;width:30px;vertical-align:middle;margin-left:10px;fill:var(--gold)}
+footer .fine{margin-top:16px;font-size:12px;color:var(--muted);letter-spacing:1px}
+
+@media(max-width:820px){
+  .nav{padding:16px 20px;flex-wrap:wrap;gap:10px}
+  .nav ul{display:none}
+  .features .grid{grid-template-columns:1fr;gap:46px}
+  .feature + .feature{border-left:none;border-top:1px solid rgba(182,142,63,.3);padding-top:46px}
+}

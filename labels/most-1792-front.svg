@@ -1,0 +1,51 @@
+<svg width="620" height="1030" viewBox="0 0 620 1030" xmlns="http://www.w3.org/2000/svg">
+  <!-- MOST 1792 · Sorak Family Estate — front label. -->
+  <rect width="620" height="1030" fill="#F6F1E7"/>
+  <rect x="14" y="14" width="592" height="1002" rx="8" fill="none" stroke="#B68E3F" stroke-width="2.5"/>
+  <rect x="22" y="22" width="576" height="986" rx="5" fill="none" stroke="#B68E3F" stroke-width="0.8" stroke-opacity="0.6"/>
+
+  <!-- crown -->
+  <image href="../assets/crown.svg" x="266" y="36" width="88" height="60"/>
+
+  <!-- wordmark -->
+  <text x="310" y="186" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif"
+        font-size="96" letter-spacing="8" fill="#B68E3F">MOST</text>
+  <g stroke="#B68E3F" stroke-width="1.1"><line x1="182" y1="218" x2="236" y2="218"/><line x1="384" y1="218" x2="438" y2="218"/></g>
+  <text x="310" y="230" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif"
+        font-size="44" letter-spacing="16" fill="#B68E3F">1792</text>
+  <text x="310" y="276" text-anchor="middle" font-family="Georgia,serif"
+        font-size="26" letter-spacing="11" fill="#16273D">PLUM BRANDY</text>
+  <g stroke="#16273D" stroke-width="1.4"><line x1="100" y1="268" x2="152" y2="268"/><line x1="468" y1="268" x2="520" y2="268"/></g>
+
+  <!-- engraving -->
+  <image href="../assets/bridge-engraving.svg" x="34" y="300" width="552" height="352"/>
+
+  <!-- crest -->
+  <image href="../assets/plum-crest.svg" x="252" y="648" width="116" height="98"/>
+
+  <!-- estate / origin -->
+  <text x="310" y="782" text-anchor="middle" font-family="Georgia,serif" font-size="20"
+        letter-spacing="4" fill="#B68E3F">SORAK FAMILY ORCHARD</text>
+  <g stroke="#B68E3F" stroke-width="1"><line x1="118" y1="776" x2="158" y2="776"/><line x1="462" y1="776" x2="502" y2="776"/></g>
+  <text x="310" y="808" text-anchor="middle" font-family="Georgia,serif" font-size="15"
+        letter-spacing="3" fill="#16273D">LIČKO PETROVO SELO · CROATIA</text>
+
+  <!-- navy footer band -->
+  <rect x="15" y="830" width="590" height="134" fill="#16273D"/>
+  <rect x="15" y="830" width="590" height="3" fill="#B68E3F"/>
+
+  <text x="70" y="878" font-family="Georgia,serif" font-size="19" letter-spacing="3" fill="#F1E9D6">PREMIUM</text>
+  <text x="70" y="902" font-family="Georgia,serif" font-size="19" letter-spacing="3" fill="#F1E9D6">PLUM BRANDY</text>
+  <text x="70" y="928" font-family="Georgia,serif" font-size="10" letter-spacing="1" fill="#B68E3F">TRADITION · NATURE · HERITAGE</text>
+
+  <image href="../assets/heritage-seal.svg" x="248" y="840" width="124" height="124"/>
+
+  <text x="558" y="890" text-anchor="end" font-family="Georgia,serif" font-size="18" letter-spacing="2" fill="#F1E9D6">750 ML</text>
+  <line x1="470" y1="874" x2="470" y2="918" stroke="#B68E3F" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="558" y="918" text-anchor="end" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#B68E3F">ALC. 40% VOL.</text>
+
+  <text x="44" y="996" font-family="Georgia,serif" font-size="13" letter-spacing="2.5" fill="#16273D">SMALL BATCH DISTILLED</text>
+  <text x="452" y="996" text-anchor="end" font-family="Georgia,serif" font-size="13" letter-spacing="2.5" fill="#16273D">PRODUCT OF</text>
+  <path d="M462 990 c6 -3 12 0 16 3 c4 -2 9 1 7 5 c-3 3 -10 2 -15 1 c-5 -1 -11 -4 -8 -9 z" fill="#B68E3F" opacity="0.85"/>
+  <text x="500" y="996" font-family="Georgia,serif" font-size="13" letter-spacing="2.5" fill="#16273D">CROATIA</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- VUČJA SUZA / WOLF'S TEAR — dark cult front label. -->
+  <defs>
+    <radialGradient id="vBg" cx="0.5" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#1c2229"/>
+      <stop offset="1" stop-color="#0b0e12"/>
+    </radialGradient>
+    <linearGradient id="vSilver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9F1F5"/>
+      <stop offset="1" stop-color="#9BB7C4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" rx="14" fill="url(#vBg)"/>
+  <rect x="16" y="16" width="568" height="768" rx="8" fill="none" stroke="#9BB7C4" stroke-opacity="0.25" stroke-width="1"/>
+
+  <text x="300" y="86" text-anchor="middle" font-family="Georgia,serif" font-size="17"
+        letter-spacing="10" fill="#9BB7C4">THE WILD DROP OF LIKA</text>
+
+  <!-- wolf head: continuous silver line, geometric / low-poly -->
+  <g fill="none" stroke="url(#vSilver)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ears + crown -->
+    <path d="M205 250 L240 150 L268 235 M395 250 L360 150 L332 235"/>
+    <!-- head outline down to muzzle -->
+    <path d="M240 150 L205 250 L218 360 L260 430 L300 470 L340 430 L382 360 L395 250 L360 150"/>
+    <!-- inner brow / cheek facets -->
+    <path d="M268 235 L300 300 L332 235"/>
+    <path d="M218 360 L300 300 L382 360"/>
+    <path d="M260 430 L300 360 L340 430 M300 300 L300 360"/>
+    <!-- eyes -->
+    <path d="M255 285 L283 295 M345 285 L317 295" stroke-width="3"/>
+    <!-- snout -->
+    <path d="M285 400 L300 412 L315 400"/>
+  </g>
+  <!-- frost-blue eyes glow -->
+  <circle cx="270" cy="290" r="3.2" fill="#9BB7C4"/>
+  <circle cx="330" cy="290" r="3.2" fill="#9BB7C4"/>
+
+  <!-- the tear / river falling from the muzzle -->
+  <path d="M300 412 C 296 470, 304 520, 300 560 C 297 590, 303 610, 300 632"
+        fill="none" stroke="url(#vSilver)" stroke-width="2" opacity="0.7"/>
+  <path d="M300 632 q-9 14 0 24 q9 -10 0 -24 z" fill="url(#vSilver)"/>
+
+  <!-- wordmark -->
+  <text x="300" y="712" text-anchor="middle" font-family="'Didot','Bodoni MT',Georgia,serif"
+        font-size="64" letter-spacing="8" fill="url(#vSilver)">VUČJA SUZA</text>
+  <text x="300" y="742" text-anchor="middle" font-family="Georgia,serif" font-style="italic"
+        font-size="20" fill="#9BB7C4">Wolf's Tear · šljivovica</text>
+
+  <text x="300" y="768" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        letter-spacing="2" fill="#7d95a1">LIČKO PETROVO SELO · LIKA · 44% VOL · 700 ml · LOT 0000</text>
+</svg>

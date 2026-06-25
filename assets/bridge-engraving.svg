@@ -1,0 +1,85 @@
+<svg width="100%" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Engraving-style stone bridge over the Korana, Ličko Petrovo Selo. Monochrome line art. -->
+  <g stroke="#36342d" fill="none" stroke-linecap="round">
+
+    <!-- sky / cloud hatching -->
+    <g stroke-width="0.7" opacity="0.28">
+      <path d="M70 70 q60 -14 130 0"/><path d="M110 84 q70 -12 150 2"/>
+      <path d="M620 64 q70 -14 150 0"/><path d="M660 80 q60 -10 130 4"/>
+      <path d="M360 56 q80 -12 170 2"/><path d="M390 72 q70 -10 150 4"/>
+    </g>
+
+    <!-- mountains -->
+    <path d="M0 196 L70 168 L120 188 L185 158 L250 190 L320 166 L390 192 L455 162 L520 190 L590 168 L665 192 L735 164 L810 190 L870 172 L900 192"
+          stroke-width="1" opacity="0.5"/>
+    <g stroke-width="0.6" opacity="0.3">
+      <path d="M185 160 l10 26"/><path d="M455 164 l9 24"/><path d="M735 166 l10 24"/>
+    </g>
+  </g>
+
+  <!-- treeline silhouette behind the bridge -->
+  <path d="M0 236 Q22 210 44 234 Q66 208 90 232 Q116 206 142 232 Q170 210 196 230
+           Q226 206 254 232 Q286 210 316 230 Q352 206 386 232 Q420 210 456 230
+           Q492 206 528 232 Q566 210 602 230 Q640 206 678 232 Q716 210 754 230
+           Q792 206 830 232 Q864 212 900 230 L900 256 L0 256 Z"
+        fill="#cfcabb" opacity="0.45" stroke="#36342d" stroke-width="0.5" stroke-opacity="0.4"/>
+
+  <!-- ===== the bridge ===== -->
+  <g stroke="#2f2d27" fill="none">
+    <!-- river surface line under deck -->
+    <line x1="20" y1="372" x2="880" y2="372" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- deck / parapet -->
+    <path d="M24 250 L876 250" stroke-width="1.6"/>
+    <path d="M24 238 L876 238" stroke-width="1.1"/>
+    <path d="M24 238 L24 250 M876 238 L876 250" stroke-width="1.1"/>
+    <!-- parapet posts -->
+    <g stroke-width="0.6" opacity="0.6">
+      <path d="M90 238 L90 250 M210 238 L210 250 M330 238 L330 250 M450 238 L450 250 M570 238 L570 250 M690 238 L690 250 M810 238 L810 250"/>
+    </g>
+
+    <!-- piers -->
+    <g stroke-width="1.2">
+      <path d="M60 250 L60 372 M178 252 L178 372 M300 252 L300 372 M428 252 L428 372 M556 252 L556 372 M684 252 L684 372 M812 250 L812 372"/>
+    </g>
+
+    <!-- arches (rainbow ∩) springing from piers -->
+    <g stroke-width="1.4">
+      <path d="M68 330 A55 64 0 0 1 170 330"/>
+      <path d="M186 330 A57 66 0 0 1 292 330"/>
+      <path d="M308 330 A60 72 0 0 1 420 330"/>
+      <path d="M436 330 A60 72 0 0 1 548 330"/>
+      <path d="M564 330 A60 72 0 0 1 676 330"/>
+      <path d="M692 330 A57 66 0 0 1 804 330"/>
+    </g>
+    <!-- voussoir ticks on a couple of arches -->
+    <g stroke-width="0.6" opacity="0.55">
+      <path d="M340 274 l-9 -8 M364 268 l-7 -9 M392 266 l-4 -10 M420 268 l4 -10 M448 268 l7 -9 M476 274 l9 -8"/>
+      <path d="M468 274 l-9 -8 M492 268 l-7 -9 M520 266 l-4 -10 M548 268 l4 -10 M576 268 l7 -9 M604 274 l9 -8"/>
+    </g>
+    <!-- masonry courses on spandrels -->
+    <g stroke-width="0.5" opacity="0.4">
+      <path d="M24 262 L876 262"/><path d="M24 274 L876 274"/>
+    </g>
+
+    <!-- pier reflections in water -->
+    <g stroke-width="0.7" opacity="0.3">
+      <path d="M60 372 L60 396 M178 372 L178 398 M300 372 L300 402 M428 372 L428 404 M556 372 L556 402 M684 372 L684 398 M812 372 L812 396"/>
+    </g>
+  </g>
+
+  <!-- ===== rushing water / rapids ===== -->
+  <g stroke="#46443c" fill="none" stroke-linecap="round">
+    <g stroke-width="0.8" opacity="0.55"><path d="M40 388 q20 -5 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0"/></g>
+    <g stroke-width="0.7" opacity="0.45"><path d="M24 404 q24 6 48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0"/></g>
+    <g stroke-width="0.8" opacity="0.5"><path d="M48 422 q20 -6 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0"/></g>
+    <g stroke-width="0.7" opacity="0.4"><path d="M30 442 q26 6 52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0 t52 0"/></g>
+    <g stroke-width="0.8" opacity="0.45"><path d="M50 462 q22 -6 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0"/></g>
+    <g stroke-width="0.6" opacity="0.35"><path d="M36 484 q28 6 56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0 t56 0"/></g>
+    <g stroke-width="0.7" opacity="0.4"><path d="M52 506 q24 -6 48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0 t48 0"/></g>
+    <!-- foam stipple -->
+    <g stroke-width="1.4" opacity="0.5" stroke-linecap="round">
+      <path d="M150 414 l0 0 M250 432 l0 0 M360 410 l0 0 M470 436 l0 0 M560 414 l0 0 M660 434 l0 0 M740 414 l0 0 M210 470 l0 0 M430 474 l0 0 M620 468 l0 0"/>
+    </g>
+  </g>
+</svg>

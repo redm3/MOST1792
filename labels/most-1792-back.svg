@@ -1,0 +1,70 @@
+<svg width="620" height="1030" viewBox="0 0 620 1030" xmlns="http://www.w3.org/2000/svg">
+  <!-- MOST 1792 · Sorak Family Estate — back label. -->
+  <rect width="620" height="1030" fill="#F6F1E7"/>
+  <rect x="14" y="14" width="592" height="1002" rx="8" fill="none" stroke="#B68E3F" stroke-width="2"/>
+
+  <image href="../assets/crown.svg" x="276" y="44" width="68" height="46"/>
+  <text x="310" y="148" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif"
+        font-size="62" letter-spacing="6" fill="#B68E3F">MOST 1792</text>
+  <text x="310" y="176" text-anchor="middle" font-family="Georgia,serif" font-size="17"
+        letter-spacing="8" fill="#16273D">PLUM BRANDY</text>
+
+  <g opacity="0.6"><image href="../assets/bridge-engraving.svg" x="80" y="196" width="460" height="230"/></g>
+
+  <image href="../assets/plum-crest.svg" x="268" y="432" width="84" height="70"/>
+  <text x="310" y="528" text-anchor="middle" font-family="Georgia,serif" font-size="16"
+        letter-spacing="3" fill="#16273D">CRAFTED IN</text>
+  <text x="310" y="552" text-anchor="middle" font-family="Georgia,serif" font-size="19"
+        letter-spacing="3" fill="#B68E3F">LIČKO PETROVO SELO · CROATIA</text>
+
+  <line x1="60" y1="582" x2="560" y2="582" stroke="#B68E3F" stroke-width="0.8" stroke-opacity="0.7"/>
+
+  <text x="60" y="614" font-family="Georgia,serif" font-size="14" letter-spacing="2.5" fill="#16273D">PRODUCT INFORMATION</text>
+  <g font-family="Georgia,serif" font-size="13.5" fill="#3a4150">
+    <text x="60" y="642">Product Type:</text>        <text x="250" y="642" fill="#16273D">Plum Brandy (Šljivovica)</text>
+    <text x="60" y="666">Ingredients:</text>         <text x="250" y="666" fill="#16273D">Plum distillate</text>
+    <text x="60" y="690">Origin:</text>              <text x="250" y="690" fill="#16273D">Ličko Petrovo Selo, Croatia</text>
+    <text x="60" y="714">Alcohol Content:</text>     <text x="250" y="714" fill="#16273D">40% vol.</text>
+    <text x="60" y="738">Volume:</text>              <text x="250" y="738" fill="#16273D">750 ml</text>
+    <text x="60" y="762">Distillation:</text>        <text x="250" y="762" fill="#16273D">Small batch distilled</text>
+    <text x="60" y="786">Serving Suggestion:</text>  <text x="250" y="786" fill="#16273D">Serve chilled or at room temperature.</text>
+    <text x="250" y="806" fill="#16273D">Perfect as a digestif.</text>
+  </g>
+
+  <g font-family="Georgia,serif" font-size="13.5" fill="#3a4150">
+    <text x="60" y="846">Most 1792 is distilled from plums grown in the Sorak</text>
+    <text x="60" y="866">family orchard above the Korana, beside the old stone</text>
+    <text x="60" y="886">bridge our village has crossed since 1792.</text>
+  </g>
+
+  <text x="60" y="926" font-family="Georgia,serif" font-size="12.5" letter-spacing="1.5" fill="#16273D">PRODUCED &amp; BOTTLED BY:</text>
+  <g font-family="Georgia,serif" font-size="12.5" fill="#3a4150">
+    <text x="60" y="946">Sorak d.o.o.</text>
+    <text x="60" y="964">Ličko Petrovo Selo, Croatia</text>
+    <text x="60" y="982">www.most1792.hr</text>
+  </g>
+
+  <!-- barcode -->
+  <g transform="translate(330,924)" fill="#16273D">
+    <rect x="0" y="0" width="2" height="44"/><rect x="4" y="0" width="1" height="44"/>
+    <rect x="8" y="0" width="3" height="44"/><rect x="13" y="0" width="1" height="44"/>
+    <rect x="17" y="0" width="2" height="44"/><rect x="22" y="0" width="4" height="44"/>
+    <rect x="28" y="0" width="1" height="44"/><rect x="32" y="0" width="2" height="44"/>
+    <rect x="36" y="0" width="3" height="44"/><rect x="42" y="0" width="1" height="44"/>
+    <rect x="46" y="0" width="2" height="44"/><rect x="50" y="0" width="1" height="44"/>
+    <rect x="54" y="0" width="4" height="44"/><rect x="60" y="0" width="2" height="44"/>
+    <rect x="64" y="0" width="1" height="44"/><rect x="68" y="0" width="3" height="44"/>
+    <rect x="74" y="0" width="1" height="44"/><rect x="78" y="0" width="2" height="44"/>
+    <rect x="82" y="0" width="3" height="44"/><rect x="88" y="0" width="1" height="44"/>
+    <rect x="92" y="0" width="2" height="44"/><rect x="97" y="0" width="4" height="44"/>
+    <rect x="103" y="0" width="1" height="44"/><rect x="107" y="0" width="2" height="44"/>
+    <text x="55" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="11" letter-spacing="2" fill="#16273D">3 859123 456789</text>
+  </g>
+
+  <g transform="translate(470,932)" fill="none" stroke="#16273D" stroke-width="1.4">
+    <circle cx="14" cy="16" r="12"/><path d="M9 21 c2 -6 8 -6 10 -10 M6 8 l16 16"/>
+    <g transform="translate(40,0)"><path d="M6 8 h16 l-2 22 h-12 z M10 8 v-3 h8 v3"/></g>
+    <g transform="translate(80,0)" stroke-linejoin="round"><path d="M14 4 l6 10 h-12 z M8 18 l-4 8 h10 M26 18 l4 8 h-10"/></g>
+    <g transform="translate(120,0)"><circle cx="14" cy="16" r="12"/><text x="14" y="21" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#16273D" stroke="none">18</text></g>
+  </g>
+</svg>

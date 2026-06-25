@@ -1,0 +1,42 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- KORANA — minimalist luxury front label. 3:4 (≈90×120mm). -->
+  <defs>
+    <linearGradient id="kPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FCFEFE"/>
+      <stop offset="1" stop-color="#F2F7F7"/>
+    </linearGradient>
+    <linearGradient id="kSilver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E5C63"/>
+      <stop offset="1" stop-color="#15868F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" rx="14" fill="url(#kPaper)"/>
+  <rect x="14" y="14" width="572" height="772" rx="8" fill="none" stroke="#0E5C63" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- top mark: the source dot -->
+  <circle cx="300" cy="92" r="7" fill="#15868F"/>
+  <text x="300" y="140" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="20" letter-spacing="9" fill="#0E5C63">FROM THE SOURCE</text>
+
+  <!-- river line — a single fine bend down the label -->
+  <path d="M300 170 C 360 250, 240 330, 300 410 C 360 490, 240 560, 300 640"
+        fill="none" stroke="url(#kSilver)" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- wordmark -->
+  <text x="300" y="430" text-anchor="middle" font-family="'Didot','Bodoni MT',Georgia,serif"
+        font-size="118" letter-spacing="6" fill="#0E5C63">KORANA</text>
+  <text x="300" y="470" text-anchor="middle" font-family="Georgia,serif" font-style="italic"
+        font-size="26" fill="#15868F">single-estate šljivovica</text>
+
+  <!-- divider -->
+  <line x1="210" y1="690" x2="390" y2="690" stroke="#0E5C63" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- terroir line -->
+  <text x="300" y="722" text-anchor="middle" font-family="Georgia,serif" font-size="17"
+        letter-spacing="2" fill="#3a6b6e">LIČKO PETROVO SELO · LIKA · CROATIA</text>
+
+  <!-- MANDATORY-TEXT ZONE: replace before printing -->
+  <text x="300" y="756" text-anchor="middle" font-family="Georgia,serif" font-size="15"
+        letter-spacing="3" fill="#0E5C63">42% VOL · 700 ml · LOT 0000</text>
+</svg>

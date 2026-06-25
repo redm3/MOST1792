@@ -1,0 +1,78 @@
+<svg width="620" height="1030" viewBox="0 0 620 1030" xmlns="http://www.w3.org/2000/svg">
+  <!-- RAJIKA · Sorak Family Estate — back label. -->
+  <rect width="620" height="1030" fill="#F6F1E7"/>
+  <rect x="14" y="14" width="592" height="1002" rx="8" fill="none" stroke="#B68E3F" stroke-width="2"/>
+
+  <text x="310" y="96" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif"
+        font-size="56" letter-spacing="9" fill="#B68E3F">RAJIKA</text>
+  <text x="310" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="17"
+        letter-spacing="8" fill="#16273D">PLUM BRANDY</text>
+
+  <!-- faint engraving -->
+  <g opacity="0.6"><image href="../assets/bridge-engraving.svg" x="70" y="146" width="480" height="240"/></g>
+
+  <!-- crest + origin -->
+  <image href="../assets/plum-crest.svg" x="266" y="392" width="88" height="74"/>
+  <text x="310" y="494" text-anchor="middle" font-family="Georgia,serif" font-size="16"
+        letter-spacing="3" fill="#16273D">CRAFTED IN</text>
+  <text x="310" y="518" text-anchor="middle" font-family="Georgia,serif" font-size="19"
+        letter-spacing="3" fill="#B68E3F">LIČKO PETROVO SELO</text>
+  <text x="310" y="540" text-anchor="middle" font-family="Georgia,serif" font-size="19"
+        letter-spacing="3" fill="#B68E3F">CROATIA</text>
+
+  <line x1="60" y1="568" x2="560" y2="568" stroke="#B68E3F" stroke-width="0.8" stroke-opacity="0.7"/>
+
+  <!-- product information -->
+  <text x="60" y="600" font-family="Georgia,serif" font-size="14" letter-spacing="2.5" fill="#16273D">PRODUCT INFORMATION</text>
+  <g font-family="Georgia,serif" font-size="13.5" fill="#3a4150">
+    <text x="60" y="628">Product Type:</text>        <text x="250" y="628" fill="#16273D">Plum Brandy</text>
+    <text x="60" y="652">Ingredients:</text>         <text x="250" y="652" fill="#16273D">Plum distillate</text>
+    <text x="60" y="676">Origin:</text>              <text x="250" y="676" fill="#16273D">Ličko Petrovo Selo, Croatia</text>
+    <text x="60" y="700">Alcohol Content:</text>     <text x="250" y="700" fill="#16273D">40% vol.</text>
+    <text x="60" y="724">Volume:</text>              <text x="250" y="724" fill="#16273D">750 ml</text>
+    <text x="60" y="748">Distillation:</text>        <text x="250" y="748" fill="#16273D">Small batch distilled</text>
+    <text x="60" y="772">Aging:</text>               <text x="250" y="772" fill="#16273D">Unaged</text>
+    <text x="60" y="796">Serving Suggestion:</text>  <text x="250" y="796" fill="#16273D">Serve chilled or at room temperature.</text>
+    <text x="250" y="816" fill="#16273D">Perfect as a digestif.</text>
+  </g>
+
+  <!-- description -->
+  <g font-family="Georgia,serif" font-size="13.5" fill="#3a4150">
+    <text x="60" y="858">Rajika Plum Brandy is distilled from plums grown in the</text>
+    <text x="60" y="878">Sorak family orchard above the Korana. Tradition, nature</text>
+    <text x="60" y="898">and heritage in every drop.</text>
+  </g>
+
+  <!-- producer -->
+  <text x="60" y="936" font-family="Georgia,serif" font-size="12.5" letter-spacing="1.5" fill="#16273D">PRODUCED &amp; BOTTLED BY:</text>
+  <g font-family="Georgia,serif" font-size="12.5" fill="#3a4150">
+    <text x="60" y="956">Sorak d.o.o.</text>
+    <text x="60" y="974">Ličko Petrovo Selo, Croatia</text>
+    <text x="60" y="992">www.rajika.hr</text>
+  </g>
+
+  <!-- barcode -->
+  <g transform="translate(330,930)" fill="#16273D">
+    <rect x="0" y="0" width="2" height="44"/><rect x="4" y="0" width="1" height="44"/>
+    <rect x="8" y="0" width="3" height="44"/><rect x="13" y="0" width="1" height="44"/>
+    <rect x="17" y="0" width="2" height="44"/><rect x="22" y="0" width="4" height="44"/>
+    <rect x="28" y="0" width="1" height="44"/><rect x="32" y="0" width="2" height="44"/>
+    <rect x="36" y="0" width="3" height="44"/><rect x="42" y="0" width="1" height="44"/>
+    <rect x="46" y="0" width="2" height="44"/><rect x="50" y="0" width="1" height="44"/>
+    <rect x="54" y="0" width="4" height="44"/><rect x="60" y="0" width="2" height="44"/>
+    <rect x="64" y="0" width="1" height="44"/><rect x="68" y="0" width="3" height="44"/>
+    <rect x="74" y="0" width="1" height="44"/><rect x="78" y="0" width="2" height="44"/>
+    <rect x="82" y="0" width="3" height="44"/><rect x="88" y="0" width="1" height="44"/>
+    <rect x="92" y="0" width="2" height="44"/><rect x="97" y="0" width="4" height="44"/>
+    <rect x="103" y="0" width="1" height="44"/><rect x="107" y="0" width="2" height="44"/>
+    <text x="55" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="11" letter-spacing="2" fill="#16273D">3 859123 456789</text>
+  </g>
+
+  <!-- icons -->
+  <g transform="translate(470,938)" fill="none" stroke="#16273D" stroke-width="1.4">
+    <circle cx="14" cy="16" r="12"/><path d="M9 21 c2 -6 8 -6 10 -10 M6 8 l16 16"/>
+    <g transform="translate(40,0)"><path d="M6 8 h16 l-2 22 h-12 z M10 8 v-3 h8 v3"/></g>
+    <g transform="translate(80,0)" stroke-linejoin="round"><path d="M14 4 l6 10 h-12 z M8 18 l-4 8 h10 M26 18 l4 8 h-10" /></g>
+    <g transform="translate(120,0)"><circle cx="14" cy="16" r="12"/><text x="14" y="21" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#16273D" stroke="none">18</text></g>
+  </g>
+</svg>

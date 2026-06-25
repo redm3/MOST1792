@@ -1,0 +1,18 @@
+<svg width="100%" viewBox="0 0 140 96" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heritage crown, antique gold -->
+  <g fill="#B68E3F" stroke="#8a661f" stroke-width="0.7" stroke-linejoin="round">
+    <!-- tiny cross over centre -->
+    <path d="M67 6 h6 v6 h6 v6 h-6 v8 h-6 v-8 h-6 v-6 h6 z"/>
+    <!-- crown body: five points with dipped valleys -->
+    <path d="M22 70 L34 40 L46 58 L58 36 L70 26 L82 36 L94 58 L106 40 L118 70 Z"/>
+    <!-- base band -->
+    <rect x="20" y="70" width="100" height="13" rx="2"/>
+  </g>
+  <!-- jewels on points -->
+  <g fill="#F6F1E7" stroke="#8a661f" stroke-width="0.6">
+    <circle cx="34" cy="40" r="3.4"/><circle cx="58" cy="36" r="3.4"/>
+    <circle cx="82" cy="36" r="3.4"/><circle cx="106" cy="40" r="3.4"/>
+  </g>
+  <!-- band studs -->
+  <g fill="#8a661f"><circle cx="36" cy="76" r="1.6"/><circle cx="58" cy="76" r="1.6"/><circle cx="82" cy="76" r="1.6"/><circle cx="104" cy="76" r="1.6"/></g>
+</svg>
